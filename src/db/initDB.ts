@@ -22,7 +22,9 @@ employeesDb.run(`
             FOREIGN KEY (empId) REFERENCES employees(id)
     )
 `)
-       
+
+//aaa
+
 employeesDb.run("insert into employees (name, department, city, salary) values('Peter', 'HR', 'Sofia', 1000)")
 employeesDb.run("insert into employees (name, department, city, salary) values('James', 'IT', 'Plovdiv', 500)")
 employeesDb.run("insert into employees (name, department, city, salary) values('John', 'HR', 'Sofia', 1200)")
